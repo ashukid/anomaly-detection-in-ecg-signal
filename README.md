@@ -1,6 +1,9 @@
 ## Implementation of the paper " Regularised Encoder-Decoder Architecture for Anomaly Detection in ECG time signal "
 
-This repository contains implementation of the method proposed in the above mentioned paper. Briefly ```Normal encoder-decoder with just reconstruction loss suffers from two problem : 1. Latent vector is not smooth and continuous, which might lead to memorising signals 2. Network is prone to outliers as mean squared error is used for reconstruction loss. We propose a regularised encoder decoder based architecture with KL divergence as regulariser for latent vector which solves the above two problem. The regulariser will enforce the network to minimise the distance between latent vector distribution and normal distribution, hence making latent vector smooth and continuous, at the same time as diverse as possible.```
+This repository contains implementation of the method proposed in the above mentioned paper.
+
+Brief summary from the paper :
+```Normal encoder-decoder with just reconstruction loss suffers from two problem : 1. Latent vector is not smooth and continuous, which might lead to memorising signals 2. Network is prone to outliers as mean squared error is used for reconstruction loss. We propose a regularised encoder decoder based architecture with KL divergence as regulariser for latent vector which solves the above two problem. The regulariser will enforce the network to minimise the distance between latent vector distribution and normal distribution, hence making latent vector smooth and continuous, at the same time as diverse as possible.```
 
 ### Directory structure :
 1. kernels : Contains notebooks for various methods proposed in the network
