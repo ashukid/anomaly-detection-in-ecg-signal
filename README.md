@@ -1,4 +1,4 @@
-## Implementation of the paper " Regularised Encoder-Decoder Architecture for Anomaly Detection in ECG time signal "
+## Implementation of the paper " [Regularised Encoder-Decoder Architecture for Anomaly Detection in ECG time signal](https://ieeexplore.ieee.org/document/9066261)"
 
 This repository contains implementation of the method proposed in the above mentioned paper.
 
